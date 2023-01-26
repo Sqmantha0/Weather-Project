@@ -40,10 +40,10 @@ searchForm = searchForm.addEventListener("submit", citySearch);
 // Degrees
 let degrees = document.querySelector(`.degreeword`);
 function celsiusTemp(event) {
-  degrees.innerHTML = `19`;
+  degrees.innerHTML = `19°`;
 }
 function fahrenTemp(event) {
-  degrees.innerHTML = `66`;
+  degrees.innerHTML = `66F`;
 }
 
 let celsius = document.querySelector(`#celsius`);
