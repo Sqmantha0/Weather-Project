@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="project">
+      <span class="citys">
+        <button class="lisbon">Lisbon</button>
+        <button class="paris">Paris</button>
+        <button class="sydney">Sydney</button>
+        <button class="sanfrancisco">San Francisco</button>
+      </span>
+      <div class="currentcity">
+        <div id="city">City</div>
+        <div id="dateNtime">
+          <span id="date">Date</span>
+          <span id="time">Time</span>
+        </div>
+        <div id="precip">Weather</div>
+      </div>
+      <div class="box cityinfo">
+        <span class="box degrees">
+          <span class="CandF"
+            ><a onclick="celsiusTemp()" id="celsius" class="celsius">C</a
+            ><span> | </span>
+            <a onclick="fahrenTemp()" id="fahrenheit" class="fahrenheit"
+              >F</a
+            ></span
+          >
+          <span class="degreeword">°C</span>
+          <span class="gif">GIF</span>
+        </span>
+        <span class="precipinfo">
+          <span class="weather">Humidity</span>
+
+          <div class="wind">Wind km/h</div>
+        </span>
+      </div>
+      <form class="searchbar">
+        <input type="search" class="bar" id="input" />
+        <input type="submit" value="Search" class="searchbutton" />
+        <input type="submit" value="Current City" class="currentbutton" />
+      </form>
+
+      <div class="box">
+        <div class="monday">
+          <span class="mon1">Mondaytemp</span>
+          <span class="mon2">MondayGIF</span>
+          <span class="mon3">Monday</span>
+        </div>
+        <div class="tuesday">
+          <span class="tue1">Tuesdaytemp</span>
+          <br />
+          <span class="tue2">TuesdayGIF</span>
+          <br />
+          <span class="tue3">Tuesday</span>
+        </div>
+        <div class="wednesday">
+          <span class="wed1">Wednesdaytemp</span>
+          <br />
+          <span class="wed2">WednesdayGIF</span>
+          <br />
+          <span class="wed3">Wednesday</span>
+        </div>
+        <div class="thursday">
+          <span class="thur1">Thursdaytemp</span>
+          <br />
+          <span class="thur2">ThursdayGIF</span>
+          <br />
+          <span class="thur3">Thursday</span>
+        </div>
+        <div class="friday">
+          <span class="frid1">Fridaytemp</span>
+          <br />
+          <span class="frid2">FridayGIF</span>
+          <br />
+          <span class="frid3"> Friday</span>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
