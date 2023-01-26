@@ -1,0 +1,218 @@
+body {
+    background: #f2f5ff;
+  }
+  
+  .project {
+    width: 700px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    padding: 30px;
+    border: 3px solid #9bb4da;
+    border-radius: 4px;
+    background: linear-gradient(
+      178.6deg,
+      rgb(247, 251, 255) 9.3%,
+      rgba(202, 225, 255, 0.938) 109.6%
+    );
+  }
+  
+  .citys {
+    border: 2px solid #9bb4da;
+    padding: 17px 11px 17px;
+    word-spacing: 30px;
+    font-size: 18px;
+    background: linear-gradient(to top, rgba(129, 188, 233, 0.123), #eff6ff 100%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+    color: #9bb4da;
+  }
+  
+  .lisbon,
+  .sydney,
+  .paris,
+  .sanfrancisco {
+    padding: 5px 26px 5px;
+    background: #e9f3ff;
+    border-radius: 5px;
+    border-color: #9bb4da;
+    color: #758bacd5;
+    box-shadow: 4px 3px 7px;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  .lisbon:hover,
+  .sydney:hover,
+  .paris:hover,
+  .sanfrancisco:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .sanfrancisco {
+    word-spacing: 0px;
+  }
+  
+  .city {
+    font-size: 33px;
+  }
+  
+  .currentcity {
+    border: 2px solid #9bb4da;
+    border-radius: 5px;
+    margin: 50px 30px 30px;
+    padding: 20px 30px 20px;
+    text-align: left;
+    line-height: 40px;
+    box-shadow: 0px 0px 10px;
+    color: #758bacd5;
+    font-size: 23px;
+    background: linear-gradient(to top, rgba(129, 188, 233, 0.123), #eff6ff 100%);
+  }
+  
+  .cityinfo {
+    border: 2px solid #8499b9;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px;
+    color: #8499b9;
+    background: linear-gradient(to top, rgba(129, 188, 233, 0.123), #eff6ff 100%);
+  }
+  
+  .degrees {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    max-height: 500px;
+    flex-direction: row;
+    border: 2px solid #9bb4da9f;
+    max-width: 65px;
+    position: relative;
+    padding: 20px 20px 20px;
+    padding-right: 300px;
+    border-radius: 4px;
+    color: #758bac;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .degrees > * {
+    flex: 1 1 20px;
+  }
+  
+  .gif {
+    text-align: center;
+    padding-left: 180px;
+    position: relative;
+    bottom: 76px;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .CandF {
+    display: inline;
+    padding-left: 155px;
+  }
+  
+  .celsius {
+    position: relative;
+    right: 16px;
+  }
+  
+  .fahrenheit {
+    padding-left: 57px;
+    position: relative;
+    bottom: 33px;
+    left: 16px;
+  }
+  
+  .degreeword {
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+    left: 17px;
+    font-size: 60px;
+  }
+  
+  .searchbar {
+    margin: 40px;
+    word-spacing: 3px;
+  }
+  
+  .bar {
+    padding: 13px 30px 13px;
+    padding-right: 80px;
+    border: 1px solid #5b7499;
+    background: #edf5ff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px;
+    color: #87ace4;
+  }
+  
+  .searchbutton,
+  .currentbutton {
+    padding: 15px 18px 15px;
+    border: 1px solid #5b7499;
+    background: #e3eeff;
+    color: #5b7499;
+    border-radius: 8px;
+    font-size: 17px;
+    box-shadow: 1px 1px 5px;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  .searchbutton:hover,
+  .currentbutton:hover {
+    opacity: 0.8;
+  }
+  
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box > * {
+    flex: 1 1 100px;
+  }
+  
+  .precipinfo {
+    border: 2px solid #9bb4da9f;
+    border-radius: 3px;
+    padding: 13px 10px 20px;
+    text-align: right;
+    max-width: 260px;
+    max-height: 660px;
+    margin-left: 60px;
+    color: #758bac;
+    font-size: 22px;
+    line-height: 56px;
+  }
+  
+  .monday,
+  .tuesday,
+  .wednesday,
+  .thursday,
+  .friday {
+    border: 2px solid #8499b9;
+    background: linear-gradient(to top, rgb(203, 231, 250), #e7f1ffea 100%);
+    max-width: 130px;
+    padding: 10px 0px 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+    color: #203c64a9;
+    box-shadow: 3px 3px 5px;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  .monday:hover,
+  .tuesday:hover,
+  .wednesday:hover,
+  .thursday:hover,
+  .friday:hover {
+    opacity: 0.8;
+  }
+  
